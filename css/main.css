@@ -242,8 +242,13 @@ header.dark nav ul li a:hover{
 
 
 /*    Services    */
-.services ul{
+.services {
+
     margin-top: 100px;
+
+}
+.services ul{
+    margin-top: 0px;
 }
 
 .services ul li{
@@ -359,6 +364,15 @@ header.dark nav ul li a:hover{
     border: 0!important;
 }
 
+/*    about us   */
+.about{
+    margin-top: 100px;
+}
+
+.about ul{
+    margin-top: 70px;
+    list-style: none;
+}
 
 
 
@@ -419,10 +433,7 @@ header.dark nav ul li a:hover{
 .testimonials ul li .client img.avatar{
     float: left;
     margin-right: 20px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    -o-border-radius: 100px;
-    border-radius: 100px;
+    
 }
 
 .testimonials ul li .client .client_details{
@@ -575,4 +586,122 @@ footer nav ul li a{
 
 footer nav ul li a:hover{
     color: #616161;
+}
+
+.download {
+    padding: 120px 0;
+    background-color: #3f6184;
+}
+.download h1 {
+    margin: 0 0 15px 0;
+    color: #fff;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+/* ==========================================================================
+Buttons
+========================================================================== */
+.use-btn {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    padding: 20px 50px;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #4b98a9;
+    font-size: 16px;
+}
+.use-btn:hover, .use-btn:focus {
+    background-color: #73d0da;
+    color: #fff;
+    text-decoration: none;
+}
+.learn-btn, .download-btn {
+    display: inline-block;
+    padding: 18px 46px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+}
+.learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
+    border-color: #73d0da;
+    color: #73d0da;
+    text-decoration: none;
+}
+.read-more-btn {
+    display: inline-block;
+    color: #323a45;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.read-more-btn i, .download-btn i {
+    margin-left: 5px
+}
+.showcase .download-btn {
+    margin-top: 50px
+}
+.download .download-btn {
+    margin-top: 25px
+}
+
+
+.download ul{
+    margin-top:50px;
+}
+.download ul li{
+    list-style: none;
+    display: block;
+    width: 313px;
+    float: left;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.download ul li:first-child{
+   
+}
+
+.download ul li .separator{
+    display: block;
+    width: 1px;
+    height: 20px;
+    background: #f6f6f6;
+    margin: 20px auto;
+}
+
+.download ul li h2{
+    color: #FFFFFF;
+    font-family: "raleway-bold";
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.download ul li p{
+   color: #FFFFFF;
+    font-family: "raleway-regular";
+    font-size: 14px;
+    line-height: 28px; 
+    margin-top: 40px;
+    letter-spacing: .5px;
+}
+
+
+/* ==========================================================================
+Waypoints
+========================================================================== */
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6 {
+    visibility: hidden
+}
+.bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight, .bounceInDown {
+    visibility: visible
+}
+.delay-05s {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+.delay-1s {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
 }
