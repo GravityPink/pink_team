@@ -648,13 +648,14 @@ Buttons
 
 .download ul{
     margin-top:50px;
+     display: inline-block;
 }
 .download ul li{
     list-style: none;
     display: block;
     width: 313px;
     float: left;
-    margin-left: 100px;
+    
     text-align: center;
 }
 
